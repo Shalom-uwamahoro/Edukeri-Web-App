@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.logo-side {
+  display: flex;
+  gap: 2%;
+  padding-top: 2%;
+}
+
+.logo{
+  width: 120px;
+  height: 120px;
+
+}
+
+.h1{
+  font-size: 50px;
+  padding-top: 1%;
+  font-family: "Aclonica", sans-serif;
+}
+
+hr{
+ margin-right: 85%;
+ margin-bottom: 5%;
+}
+
+.container {
+  flex-direction: column;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.navbar-container  {
+  
+padding-top: 7%;
+}
+
+.navbar-container a {
+  color: rgb(12, 12, 78);
+  text-decoration: none;
+  font-family: "Besley", serif;
+  font-size: 30px;
+ 
+
+}
+.navbar-container a:hover {
+  color: #D51384;
+}
+
+.logout-img{
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+
+.logout-button{
+  display: flex;
+  gap: 10px;
+  margin-top: 6%;
+  font-size: 20px;
+  font-family: "Besley", serif;
+  width: 90px;
+  height: 40px;
+  padding-right: 107px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.logout-button:hover{
+  background-color: rgb(205, 210, 41);
+  color:black;
+  
+}
+
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 20px;
+  transition: all 0.3s ease;
+}
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+ .hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+ .hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+

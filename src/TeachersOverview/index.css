@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.teachers-overview {
+  font-family: Arial, sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+  padding-left: 17%;
+}
+
+.search-bar input {
+  
+  padding: 20px 300px;
+  border: 2px solid #aba7a7;
+  border-radius: 10px 0 0 10px;
+  font-family: "Besley", serif;
+  font-size: 18px;
+    
+}
+
+.search-bar button {
+  padding: 10px  30px;
+  background: white;
+  border: 2px solid #aba7a7;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.search-icon{
+  width: 40px;
+  height: 45px;
+  cursor: pointer;
+ 
+}
+
+
+.teacher-info {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+
+}
+
+h2{
+  font-family: "Besley", serif;
+
+}
+
+h3{
+  font-family: "Besley", serif;
+
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+}
+
+.course-info {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5%;
+  margin-bottom: 20px;
+  padding-top: 4%;
+}
+
+.info-box {
+  /* flex: 1; */
+  width: 400px;
+  height: 150px;
+  padding-top: 2%;
+  border: 2px solid #aba7a7;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Besley", serif;
+  margin-top: 2%;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 7%; 
+}
+
+.chart {
+  width: 60%;
+  max-width: 600px;
+  height: 700px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* 
+@media screen and (min-width: 280px) and (max-width: 340px){
+
+
+}
+
+@media screen and (min-width: 341px) and (max-width: 359px){
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px){
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 389px){
+
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 411px){
+
+}
+
+
+@media screen and (min-width: 412px) and (max-width: 480px){
+
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 680px){
+
+}
+
+@media screen and (min-width: 681px) and (max-width: 819px){
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 880px){
+
+}
+
+@media screen and (min-width: 881px) and (max-width: 1019px){
+
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1030px){
+
+}
+
+
+@media screen and (min-width: 1023px) and (max-width: 1080px){
+
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px){
+
+} */
+
+
+@media screen and (min-width: 280px) and (max-width: 340px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 10px; width: 100%; font-size: 14px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .search-icon { width: 30px; height: 35px; }
+  .teacher-info { text-align: center; }
+  .avatar { width: 80px; height: 80px; }
+  .course-info { flex-direction: column; gap: 10px; }
+  .info-box { width: 100%; height: auto; padding: 10px; font-size: 16px; }
+  .chart-container { height: 300px; }
+  .chart { width: 90%; height: 300px; }
+}
+
+@media screen and (min-width: 341px) and (max-width: 359px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 10px; width: 100%; font-size: 14px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .course-info { flex-direction: column; gap: 10px; }
+  .info-box { width: 100%; height: auto; padding: 15px; }
+  .chart-container { height: 350px; }
+  .chart { width: 90%; height: 350px; }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 15px; width: 100%; font-size: 15px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .course-info { flex-direction: column; gap: 15px; }
+  .info-box { width: 100%; height: auto; padding: 15px; }
+  .chart-container { height: 400px; }
+  .chart { width: 90%; height: 400px; }
+}
+
+@media screen and (min-width: 375px) and (max-width: 389px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 15px; width: 100%; font-size: 16px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .course-info { flex-direction: column; gap: 15px; }
+  .info-box { width: 100%; height: auto; padding: 20px; }
+  .chart-container { height: 450px; }
+  .chart { width: 90%; height: 450px; }
+}
+
+@media screen and (min-width: 390px) and (max-width: 411px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 15px; width: 100%; font-size: 16px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .course-info { flex-direction: column; gap: 20px; }
+  .info-box { width: 100%; height: auto; padding: 20px; }
+  .chart-container { height: 500px; }
+  .chart { width: 90%; height: 500px; }
+}
+
+@media screen and (min-width: 412px) and (max-width: 480px) {
+  .teachers-overview { padding: 5% 5%; }
+  .search-bar { padding-left: 0; flex-direction: column; align-items: center; }
+  .search-bar input { padding: 15px; width: 100%; font-size: 16px; border-radius: 10px; }
+  .search-bar button { width: 100%; border-radius: 10px; margin-top: 10px; }
+  .course-info { flex-direction: column; gap: 20px; }
+  .info-box { width: 100%; height: auto; padding: 25px; }
+  .chart-container { height: 550px; }
+  .chart { width: 90%; height: 550px; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 680px) {
+  .teachers-overview { padding: 5% 7%; }
+  .search-bar { padding-left: 0; }
+  .search-bar input { padding: 15px; width: 70%; }
+  .course-info { flex-wrap: wrap; justify-content: center; }
+  .info-box { width: 45%; height: auto; padding: 20px; }
+  .chart-container { height: 600px; }
+  .chart { width: 80%; height: 600px; }
+}
+
+@media screen and (min-width: 681px) and (max-width: 819px) {
+  .teachers-overview { padding: 5% 8%; }
+  .search-bar { padding-left: 10%; }
+  .search-bar input { padding: 15px 200px; }
+  .course-info { flex-wrap: wrap; justify-content: center; }
+  .info-box { width: 45%; }
+  .chart-container { height: 650px; }
+  .chart { width: 75%; height: 650px; }
+}
+
+@media screen and (min-width: 820px) and (max-width: 880px) {
+  .teachers-overview { padding: 5% 8%; }
+  .search-bar { padding-left: 12%; }
+  .search-bar input { padding: 15px 250px; }
+  .course-info { justify-content: space-between; }
+  .info-box { width: 30%; }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1019px) {
+  .teachers-overview { padding: 5% 9%; }
+  .search-bar { padding-left: 15%; }
+  .search-bar input { padding: 18px 280px; }
+  .course-info { justify-content: space-between; }
+  .info-box { width: 30%; }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1030px) {
+  .search-bar { padding-left: 16%; }
+  .search-bar input { padding: 20px 290px; }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1080px) {
+  .search-bar { padding-left: 16%; }
+  .search-bar input { padding: 20px 290px; }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px) {
+  .search-bar { padding-left: 17%; }
+  .search-bar input { padding: 20px 300px; }
+}
